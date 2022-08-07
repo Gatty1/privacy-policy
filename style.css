@@ -186,17 +186,6 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 h3{
     color:white;
 }
@@ -293,19 +282,14 @@ footer {
   
   .primary-footer{
       display: flex;
-      margin: 2em 4em 0em;
-      justify-content: space-between;
-      color: #fff;
+    margin: 2em 4em 0em;
+    justify-content: space-between;
+    color: #fff;
   }
   .primary-footer div a{
       color: #fff;
       margin-right: 4em;
   }
-  
-
-
- 
-
     @media screen and (max-width: 980px) {
         #main-menu{
           display: none;
@@ -342,7 +326,18 @@ footer {
           }
           .signup1 a {
             color: white;
-          }    
+          } p{
+            margin-bottom :25px;
+            line-height: 1.7;
+            text-align: justify;
+            margin-left: 45px;
+            margin-right:45px;
+            font-family: "open sans",sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+        
+        }
+
           .secondary-footer{
             flex-direction: column;
          }
@@ -354,7 +349,7 @@ footer {
          .contact-us{
              justify-content: flex-end;
          }
-        } .contact-us button{
+         .contact-us button{
             margin: 5em 10em;
             padding: .7em 4em;
             color:#fff;
@@ -367,3 +362,4 @@ footer {
             
 
     }
+  }
